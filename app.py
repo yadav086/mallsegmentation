@@ -39,7 +39,7 @@ def mall():
 		if model_dc.predict(inputs)[0]==0 or model_rf.predict(inputs)[0]==0 or model_xg.predict(inputs)[0]==0 or model_ct.predict(inputs)[0]==0:
 		 	st.success('The user will click on the Advertisement.')
 		else:
-		 	st.success('he user will not click on the Advertisement.')
+		 	st.success('The user will not click on the Advertisement.')
 
 
 if __name__=='__main__':
